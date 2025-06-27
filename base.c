@@ -6,7 +6,7 @@ typedef struct {
     int32_t index;
     int64_t padding;    // seems to serve no purpose.
     uint64_t state[624];
-    uint32_t const_1388;    // always 0xFFFFFFFFFFFFFFFF, probably part of reference implementation?
+    uint32_t const_1388;    // always 0x5555555555555555, probably part of reference implementation?
     uint32_t const_138C;
 } RNG_State;
 
